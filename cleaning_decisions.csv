@@ -1,0 +1,9 @@
+Cleaning Step,Decision,Reason
+Missing numeric values,Filled with median,Median is less sensitive to extreme values
+Missing categorical values,Filled with mode,Mode preserves the most common category
+Missing date values,Filled with most frequent valid date,Uses the most common valid date
+Duplicate records,Removed exact duplicate rows,Duplicate records can distort analysis
+Text standardization,Removed spaces and standardized capitalization,Improves consistency
+Invalid numeric values,Removed records outside valid ranges,Ensures values follow valid ranges
+Outlier detection,Detected using IQR; retained for review,Outliers may be valid observations and should be reviewed
+Data type correction,Converted numeric and date columns to appropriate types,Ensures correct analysis and calculations

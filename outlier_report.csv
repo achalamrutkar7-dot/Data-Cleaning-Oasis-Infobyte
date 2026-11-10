@@ -1,0 +1,5 @@
+Column,Q1,Q3,IQR,Lower Bound,Upper Bound,Outlier Count,Decision
+sales,4474.0175,11711.91,7237.8925,-6382.821249999999,22568.74875,0,Retained for review
+profit,76.24249999999999,2757.96,2681.7175,-3946.3337500000002,6780.53625,0,Retained for review
+quantity,5.0,11.0,6.0,-4.0,20.0,0,Retained for review
+discount,0.15,0.39,0.24000000000000002,-0.21000000000000005,0.75,0,Retained for review
